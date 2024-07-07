@@ -9,6 +9,8 @@ terraform {
 
 provider "aws" {
   region = "ap-south-1"  # Provide your desire AWS region here
+  access_key  = var.aws_access_key_id
+  secret_key  = var.aws_secret_access_key
 }
 
 resource "aws_instance" "example" {
