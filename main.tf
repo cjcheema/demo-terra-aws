@@ -11,7 +11,7 @@ provider "aws" {
   region = "ap-south-1"  # Provide your desire AWS region here
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "cj-vm" {
   ami           = "ami-01376101673c89611"  # Replace with a valid AMI ID
   instance_type = "t2.micro"  # Provide the desire AWS instance type
 
