@@ -1,4 +1,4 @@
-name: Terraform ss
+name: Terraform
 
 on:
   push:
