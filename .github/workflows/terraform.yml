@@ -23,7 +23,7 @@ jobs:
       run: terraform init # Initialize the Terraform working directory and setup backend (S3 bucket) to store Terraform state file
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY3 }}
         AWS_REGION: ap-south-1 # Change to your desire region
 
     - name: Terraform Plan
