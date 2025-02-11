@@ -9,6 +9,8 @@ This repository demonstrates how to automate the deployment of infrastructure on
 ## Prerequisites
 
 - **GitHub Actions** is set up in this repository. No local installation of Terraform or AWS CLI is required.
+- **Remote Backend** should be setup in Amazon S3 to store the Terraform state file. Check out my article below for the step-by-step guide: https://www.cjcheema.com/2025/02/07/no-more-dynamodb-use-native-s3-locking-for-terraform-state/
+
 
 ## Usage
 
@@ -46,4 +48,4 @@ Feel free to submit issues or pull requests if you have suggestions or improveme
 ## Author
 
 ### Name: Charanjit Singh
-### Email: charanjit.singh@outlook.in / webmaster@cjcheema.com
+### Email: charanjit.singh@outlook.in / charanjit.cheema@cjcheema.com
