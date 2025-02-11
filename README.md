@@ -45,7 +45,11 @@ https://www.cjcheema.com/2024/07/07/automating-aws-infrastructure-provisioning-i
 
 Feel free to submit issues or pull requests if you have suggestions or improvements.
 
-## Author
+# Author
 
-### Name: Charanjit Singh
-### Email: charanjit.singh@outlook.in / charanjit.cheema@cjcheema.com
+This project is created and maintained by Charanjit Singh.
+* Email: charanjit.singh@outlook.in/charanjit.cheema@cjcheema.com
+* Website: https://www.cjcheema.com
+* LinkedIn: https://www.linkedin.com/in/cjcheema/
+
+Feel free to connect for any questions, suggestions, or feedback.
