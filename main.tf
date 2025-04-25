@@ -22,7 +22,7 @@ resource "aws_iam_role_policy_attachment" "ssm_policy" {
 
 resource "aws_instance" "cj-vm" {
   ami           = "ami-01376101673c89611"  # Replace with a valid AMI ID
-  instance_type = "t2.micro"  # Provide the desire AWS instance type
+  instance_type = "t3.nano"  # Provide the desire AWS instance type
   iam_instance_profile = aws_iam_instance_profile.ec2_profile.name # Attach the IAM role to the instance
   key_name = "cjkeypair" # Provide the name of your key pair here
 
