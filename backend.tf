@@ -5,4 +5,4 @@ terraform {
         region         = "ap-south-1" # This is the region where the bucket is located
         use_lockfile   = true  # This enables native S3 state locking
     }
-}
+}ddd
